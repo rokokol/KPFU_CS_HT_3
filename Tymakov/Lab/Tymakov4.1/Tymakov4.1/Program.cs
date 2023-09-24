@@ -58,6 +58,7 @@ namespace Tymakov4
             for (i = 0; number > months[i] && i < 12; i++) number -= months[i];
 
             Console.WriteLine($"It is a {names[i]} {number}");
+	    Console.ReadKey();
         }
     }
 }

@@ -1,0 +1,6 @@
+/home/rokoko/Projects/KPFU/Tymakov/Lab/Tymakov4.1/Tymakov4.1/bin/Debug/Tymakov4.1.exe
+/home/rokoko/Projects/KPFU/Tymakov/Lab/Tymakov4.1/Tymakov4.1/bin/Debug/Tymakov4.1.pdb
+/home/rokoko/Projects/KPFU/Tymakov/Lab/Tymakov4.1/Tymakov4.1/obj/x86/Debug/Tymakov4.1.csproj.AssemblyReference.cache
+/home/rokoko/Projects/KPFU/Tymakov/Lab/Tymakov4.1/Tymakov4.1/obj/x86/Debug/Tymakov4.1.csproj.CoreCompileInputs.cache
+/home/rokoko/Projects/KPFU/Tymakov/Lab/Tymakov4.1/Tymakov4.1/obj/x86/Debug/Tymakov4.1.exe
+/home/rokoko/Projects/KPFU/Tymakov/Lab/Tymakov4.1/Tymakov4.1/obj/x86/Debug/Tymakov4.1.pdb

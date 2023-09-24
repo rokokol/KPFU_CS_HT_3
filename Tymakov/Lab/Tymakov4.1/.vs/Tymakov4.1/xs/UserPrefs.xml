@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{60BEC272-D4AD-414F-A6D0-9294FCBE9C6B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tymakov4.1/Program.cs">
+    <Files>
+      <File FileName="Tymakov4.1/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Tymakov4.1" expanded="True">
+            <Node name="Tymakov4.1" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Tymakov4.1 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

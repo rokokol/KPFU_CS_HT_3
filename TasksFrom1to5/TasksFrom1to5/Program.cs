@@ -13,6 +13,12 @@ namespace TasksFrom1to5
             Console.ReadKey();
         }
 
+        // This not only just trim the string, but also convert all space sequence to one space
+        static string TrueTrim(string input)
+        {
+            return Regex.Replace(input.Trim(), " +", " ");
+        }
+
         static int[] ReadRow()
         {
             bool temp = true;
@@ -20,7 +26,7 @@ namespace TasksFrom1to5
             while(temp)
             {
                 // Here is a one-space string "" because there is no Regex.Replace(string, string, char), only 3-string one
-                string[] numbers = Regex.Replace(Console.ReadLine().Trim(), " +", " ").Split(' ');
+                string[] numbers = TrueTrim(Console.ReadLine()).Split(' ');
                 bool correct = numbers.Length == 10;
                 if (correct)
                 {
@@ -91,7 +97,7 @@ namespace TasksFrom1to5
             void SecondProblem()
             {
                 Message("tells card-type by its number");
-                string[] cards = new string[] { "six", "seven", "eight", "nine", "ten", "jack", "queen", "king", "ace" };
+                string[] cards = { "six", "seven", "eight", "nine", "ten", "jack", "queen", "king", "ace" };
 
                 Console.WriteLine("NOTE: jack == 11, queen == 12, king == 13, ace == 14\nPlease, enter the number of the card:");
                 try
@@ -108,9 +114,26 @@ namespace TasksFrom1to5
                 }
             }
 
+            void ThirdProblem()
+            {
+                Message("gives input string and returned another one");
+                Console.WriteLine("Please, enter the string:");
+                switch (TrueTrim(Console.ReadLine()).ToLower())
+                {
+                    case "jabroni": Console.WriteLine("Patron Tequila"); break;
+                    case "school counselor": Console.WriteLine("Anything with Alcohol"); break;
+                    case "programmer": Console.WriteLine("Hipster Craft Beer"); break;
+                    case "bike gang member": Console.WriteLine("Moonshine"); break;
+                    case "politician": Console.WriteLine("Your tax dollars"); break;
+                    case "rapper": Console.WriteLine("Cristal"); break;
+                    default: Console.WriteLine("Beer");break;
+                }
+            }
+
             // Here solutions run
             //FirstProblem();
-            SecondProblem();
+            //SecondProblem();
+            ThirdProblem();
         }
     }
 }

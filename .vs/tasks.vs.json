@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Program",
+      "appliesTo": "TasksFrom1to5/TasksFrom1to5/Program.cs",
+      "type": "launch"
+    }
+  ]
+}

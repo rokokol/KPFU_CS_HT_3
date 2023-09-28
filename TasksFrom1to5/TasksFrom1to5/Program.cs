@@ -180,6 +180,9 @@ namespace TasksFrom1to5
             ThirdProblem();
             FourthProblem();
             FifthProblem();
+
+            Console.WriteLine("\nThat is all!\nPlease, enter any key to continue...");
+            Console.ReadKey();
         }
     }
 }

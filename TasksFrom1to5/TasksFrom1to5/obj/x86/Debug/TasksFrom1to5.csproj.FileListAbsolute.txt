@@ -4,3 +4,10 @@
 /home/rokoko/Projects/KPFU/KPFU_CS_HT_3/TasksFrom1to5/TasksFrom1to5/obj/x86/Debug/TasksFrom1to5.csproj.CoreCompileInputs.cache
 /home/rokoko/Projects/KPFU/KPFU_CS_HT_3/TasksFrom1to5/TasksFrom1to5/obj/x86/Debug/TasksFrom1to5.exe
 /home/rokoko/Projects/KPFU/KPFU_CS_HT_3/TasksFrom1to5/TasksFrom1to5/obj/x86/Debug/TasksFrom1to5.pdb
+C:\Users\xzrok\Source\Repos\rokokol\KPFU_CS_HT_3\TasksFrom1to5\TasksFrom1to5\bin\Debug\TasksFrom1to5.exe.config
+C:\Users\xzrok\Source\Repos\rokokol\KPFU_CS_HT_3\TasksFrom1to5\TasksFrom1to5\bin\Debug\TasksFrom1to5.exe
+C:\Users\xzrok\Source\Repos\rokokol\KPFU_CS_HT_3\TasksFrom1to5\TasksFrom1to5\bin\Debug\TasksFrom1to5.pdb
+C:\Users\xzrok\Source\Repos\rokokol\KPFU_CS_HT_3\TasksFrom1to5\TasksFrom1to5\obj\x86\Debug\TasksFrom1to5.csproj.AssemblyReference.cache
+C:\Users\xzrok\Source\Repos\rokokol\KPFU_CS_HT_3\TasksFrom1to5\TasksFrom1to5\obj\x86\Debug\TasksFrom1to5.csproj.CoreCompileInputs.cache
+C:\Users\xzrok\Source\Repos\rokokol\KPFU_CS_HT_3\TasksFrom1to5\TasksFrom1to5\obj\x86\Debug\TasksFrom1to5.exe
+C:\Users\xzrok\Source\Repos\rokokol\KPFU_CS_HT_3\TasksFrom1to5\TasksFrom1to5\obj\x86\Debug\TasksFrom1to5.pdb

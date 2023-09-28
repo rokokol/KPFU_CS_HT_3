@@ -158,11 +158,28 @@ namespace TasksFrom1to5
                 }
             }
 
+            void FifthProblem()
+            {
+                Message("count number of strings \"Hello Kitty\" and \"Barbie doll\" in the array");
+                string[] array = { "Barbie doll", "Another Doll", "Doll", "Cheese",
+                     "Barbie doll", "Hello Kitty", "Amogus", "Barbie doll", "Car",
+                      "Hello Kitty", "Hello World", "Bye World" };
+                Console.WriteLine("The array of items:");
+                int count = 0;
+                foreach (string s in array)
+                {
+                    Console.WriteLine(s);
+                    if (s.Equals("Hello Kitty") || s.Equals("Barbie doll")) count++;
+                }
+                Console.WriteLine($"\nThe count of the dolls the the basket is: {count}");
+            }
+
             // Here solutions run
-            //FirstProblem();
-            //SecondProblem();
-            //ThirdProblem();
+            FirstProblem();
+            SecondProblem();
+            ThirdProblem();
             FourthProblem();
+            FifthProblem();
         }
     }
 }

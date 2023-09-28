@@ -19,6 +19,17 @@ namespace TasksFrom1to5
             return Regex.Replace(input.Trim(), " +", " ");
         }
 
+        enum DaysOfTheWeek
+        {
+            Monday,
+            Thuesday,
+            Wednesday,
+            Thursday,
+            Friday,
+            Saturday,
+            Sunday
+        }
+
         static int[] ReadRow()
         {
             bool temp = true;
@@ -130,10 +141,28 @@ namespace TasksFrom1to5
                 }
             }
 
+            void FourthProblem()
+            {
+                Message("reads a number of a week and prints its name");
+                Console.WriteLine("Please, enter the number of the week:");
+                switch (ReadInt())
+                {
+                    case 1: Console.WriteLine(DayOfWeek.Monday); break;
+                    case 2: Console.WriteLine(DayOfWeek.Tuesday); break;
+                    case 3: Console.WriteLine(DayOfWeek.Wednesday); break;
+                    case 4: Console.WriteLine(DayOfWeek.Thursday); break;
+                    case 5: Console.WriteLine(DayOfWeek.Friday); break;
+                    case 6: Console.WriteLine(DayOfWeek.Saturday); break;
+                    case 7: Console.WriteLine(DayOfWeek.Sunday); break;
+                    default: Console.WriteLine("There is no day of the week with such number"); break;
+                }
+            }
+
             // Here solutions run
             //FirstProblem();
             //SecondProblem();
-            ThirdProblem();
+            //ThirdProblem();
+            FourthProblem();
         }
     }
 }
